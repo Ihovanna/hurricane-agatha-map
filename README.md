@@ -1,6 +1,6 @@
 # Huricane Agatha Damage Assessment Map
 
-Ada Developers Academy C18 capstone project by Ihovanna Huezo.
+Ada Developers Academy C18 Capstone Project by Ihovanna Huezo.
 
 ## Available Scripts
 
