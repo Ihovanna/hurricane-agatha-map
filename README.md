@@ -1,5 +1,5 @@
 # Huricane Agatha Damage Assessment Map
-
+This web app utilizes 
 Ada Developers Academy C18 Capstone Project by Ihovanna Huezo.
 
 ## Available Scripts

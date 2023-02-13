@@ -1,4 +1,4 @@
-import { PropTypes, useEffect, useState } from "react";
+import { useState } from "react";
 import {
   useJsApiLoader,
   GoogleMap,
@@ -88,9 +88,9 @@ function Basemap(props) {
                 north: 15.774,
                 south: 15.7599,
                 east: -96.629,
-                west: -96.652
-              }
-            }
+                west: -96.652,
+              },
+            },
           }}
           onTilesLoaded={() => {
             setCenter(null);
