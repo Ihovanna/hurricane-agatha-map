@@ -1,4 +1,4 @@
-# Huricane Agatha Damage Assessment Map
+# Hurricane Agatha Damage Assessment Map
 Ada Developers Academy C18 Capstone Project by Ihovanna Huezo.
 
 This web app utilizes Google's Cloud Platform Services to feature a map crafted 
@@ -25,9 +25,30 @@ Back-end: Google Firebase (Back-End as a Service)
 Database: Google Firestore
 Deployment: Heroku
 
-### Libraries
-    - firestore & firestore-tools
-    - @react-google-maps/api
-    - react-collapsible
-    - react-player
+## Dependencies
+- `firestore` & `firestore-tools`
+- `@react-google-maps/api`
+- `react-collapsible`
+- `react-player`
 
+## Upcoming Features
+- User login 
+    This app in intended to be used by a specific sub-set of people. The data contained in
+    the map is not intended for public use. Users will not have permmission to update any
+    data or post any new households onto the map.
+
+- Report an issue form
+    Users will be allowed to request a change in the data or report any mistakes they see
+    reflected in the app via a form. 
+
+- User picture upload
+    Logged in users will be allowed to upload images corresponding to each mapped household.
+    Google Firebase Storage will be utilized to support this feature.
+
+- Picture gallery
+    A gallery section will be added to the section right below the map to allow users to 
+    see any pictures associaated to the household they click in the map.
+
+- Statistical analysis graphs
+    A collapsible section will contain statistics summarizing the demographic data reflected
+    in the map.
