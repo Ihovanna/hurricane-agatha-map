@@ -22,16 +22,16 @@ can use to more easily reference their initial data as the project progresses.
 
 
 ## Technologies
-**Front-end:** React.js  
-**Back-end:** Google Firebase (Back-End as a Service)  
-**Database:** Google Firestore  
-**Deployment:** Heroku  
+    **Front-end:** React.js  
+    **Back-end:** Google Firebase (Back-End as a Service)  
+    **Database:** Google Firestore  
+    **Deployment:** Heroku  
 
 ## Dependencies
-- `firestore` & `firestore-tools`
-- `@react-google-maps/api`
-- `react-collapsible`
-- `react-player`
+    `firestore` & `firestore-tools`
+    `@react-google-maps/api`
+    `react-collapsible`
+    `react-player`
 
 ## Upcoming Features
 - **User login**  
