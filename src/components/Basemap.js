@@ -23,6 +23,8 @@ function Basemap(props) {
 
   const householdsAppState = props.householdState;
   const googleMapsAPI = process.env.REACT_APP_GOOGLE_MAPS;
+  console.log(googleMapsAPI);
+  console.log(process.env.REACT_APP_FIREBASE);
 
   const { isLoaded } = useJsApiLoader({
     id: "175d9416e532b683",
