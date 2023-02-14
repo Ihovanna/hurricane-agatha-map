@@ -26,7 +26,7 @@ function Basemap(props) {
 
   const { isLoaded } = useJsApiLoader({
     id: "175d9416e532b683",
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS,
+    googleMapsApiKey: googleMapsAPI,
   });
 
   const containerSize = {

@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
-const firebaseKey = process.env.REACT_APP_FIREBASE;
+const firebaseKey = "AIzaSyBwyxLp4-xMwM6eAqC1oLcAAovM2nt21Gg";
 
 const firebaseConfig = {
   apiKey: firebaseKey,
