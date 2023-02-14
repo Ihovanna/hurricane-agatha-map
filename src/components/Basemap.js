@@ -25,7 +25,7 @@ function Basemap(props) {
 
   const { isLoaded } = useJsApiLoader({
     id: "175d9416e532b683",
-    googleMapsApiKey: "AIzaSyApWfuqlJ5YGQb-wiFoCzpNIQYi13pQxj8",
+    googleMapsApiKey: process.env.googleMapsKey,
   });
 
   const containerSize = {
