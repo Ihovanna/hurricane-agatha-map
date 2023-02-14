@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.firebaseKey,
+  apiKey: process.env.REACT_APP_FIREBASE,
   authDomain: "hurricane-agatha-2022-map.firebaseapp.com",
   projectId: "hurricane-agatha-2022-map",
   storageBucket: "hurricane-agatha-2022-map.appspot.com",
