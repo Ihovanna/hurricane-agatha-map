@@ -38,6 +38,7 @@ function App() {
   return (
     <div className="container">
       <div className="page-header ">
+      <br />
         <h1>Hurricane Agatha 2022: Agua Dulce Damage Assessment</h1>
         <div id="sub-title">
           Community of Agua Dulce, Santa María Tonameca municipality, Oaxaca,
@@ -45,6 +46,7 @@ function App() {
         </div>
       </div>
 
+      <br />
       <br />
       <br />
 
@@ -57,6 +59,7 @@ function App() {
         <br />
       </div>
 
+      <br />
       <br />
       <br />
 
@@ -74,6 +77,9 @@ function App() {
           label="About Hridaya Yoga"
         ></CollapseHridayaYoga>
       </div>
+
+      <br />
+      <br />
 
       <div className="info-videos">
         <ReactPlayer
