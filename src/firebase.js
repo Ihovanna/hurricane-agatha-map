@@ -2,10 +2,8 @@ import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
-const firebaseKey = "AIzaSyBwyxLp4-xMwM6eAqC1oLcAAovM2nt21Gg";
-
 const firebaseConfig = {
-  apiKey: firebaseKey,
+  apiKey: "AIzaSyBwyxLp4-xMwM6eAqC1oLcAAovM2nt21Gg",
   authDomain: "hurricane-agatha-2022-map.firebaseapp.com",
   projectId: "hurricane-agatha-2022-map",
   storageBucket: "hurricane-agatha-2022-map.appspot.com",
