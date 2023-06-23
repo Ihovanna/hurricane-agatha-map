@@ -2,7 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import ReactPlayer from "react-player";
-import db from "./firebase";
+import db from "./firebase_conf";
 import Basemap from "./components/Basemap";
 import AboutAgatha from "./components/AboutAgatha";
 import CollapseProject from "./components/CollapsibleSections/CollapseProject";
